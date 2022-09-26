@@ -57,15 +57,16 @@ jackpot(2)
 
 // 3
 
-console.log("Build a sentiment analyser")
+// Super forkert lavet - gik lidt død her
 
+console.log("Build a sentiment analyser")
 
 function SentimentAnalyser (text) {
     const positive = ["good", "happy", "awesome"]
-    let length = positive.length
+    let lengthPositive = positive.length
 
     const negative = ["bad", "wierd", "downs"]
-    let length = negative.length
+    let lengthNegative = negative.length
 
     let score = 0
     const split = text.split(" ")
